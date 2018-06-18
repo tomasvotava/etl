@@ -1,9 +1,9 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-#  main.py
+#  config.py
 #  
-#  Copyright 2018 rayt <info@tomasvotava.eu>
+#  Copyright 2018 rayt <rayt@DESKTOP-HYNEK>
 #  
 #  This program is free software; you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by
@@ -22,14 +22,8 @@
 #  
 #  
 
-import json
-import os
-
-
-def main(args):
-	
-	return 0
-
 if __name__ == '__main__':
 	import sys
-	sys.exit(main(sys.argv))
+	print("This file is meant to be included")
+	sys.exit(1)
+
