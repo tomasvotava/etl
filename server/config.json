@@ -1,0 +1,6 @@
+{
+	"server": {
+		"listenAddress": "",
+		"listenPort": 7434
+	}
+}

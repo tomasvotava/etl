@@ -1,9 +1,9 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-#  config.py
+#  main.py
 #  
-#  Copyright 2018 rayt <rayt@DESKTOP-HYNEK>
+#  Copyright 2018 rayt <info@tomasvotava.eu>
 #  
 #  This program is free software; you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by
@@ -22,8 +22,12 @@
 #  
 #  
 
+from config import Settings
+
+def main(args):
+	print(Settings)
+	return 0
+
 if __name__ == '__main__':
 	import sys
-	print("This file is meant to be included")
-	sys.exit(1)
-
+	sys.exit(main(sys.argv))
