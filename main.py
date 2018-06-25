@@ -22,8 +22,8 @@
 #  
 #  
 
-from storage import *
-print(storage)
+from storage.storage import Storage
+print(Storage)
 def main(args):
 	print(dir())
 	return 0

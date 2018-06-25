@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-#  storage.py
+#  users.py
 #  
 #  Copyright 2018 Tomáš Votava <info@tomasvotava.eu>
 #  
@@ -22,13 +22,9 @@
 #  
 #  
 
+
 if __name__ == '__main__':
 	print("This module is not meant to be run directly.")
 	import sys
 	sys.exit(0)
 
-class Storage():
-	"""
-	Storage class represents the directory hierarchy.
-	"""
-	pass

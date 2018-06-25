@@ -22,6 +22,20 @@
 #  
 #  
 
+"""
+Storage defines a way to store and access data on the server.
+
+Data directory structure:
+data
+	/project_id
+		/subdirectory						(bucket)
+			/table_id.{version_time}.csv	(data)
+			/table_id.meta 					(metadata)
+	/users
+		/user_id.data						(userdata)
+Prefered usage:
+from storage.storage import Storage
+"""
 
 if __name__ == '__main__':
 	print("This package is not meant to be run directly.")
